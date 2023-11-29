@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.search-container {
+  padding-top: 5px;
+  float: right;
+  margin-right: 20px;
+}
+
+.search-box {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+.logo-text {
+  float: left;
+  padding-top: 8px;
+  padding-left: 20px;
+  font-size: 24px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+  padding: 50px;
+}
+.container1 {
+  margin-top: 50px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-left: 0px;
+}
+.text {
+  width: 500px;
+  height: 2rem;
+}
+.form {
+  margin-top: 100px;
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-left: 370px;
+  width: 800px;
+  height: 500px;
+  background-color: honeydew;
+}
+.container2 {
+  margin-top: 50px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.desc {
+  margin-left: 0px;
+}
+.textarea {
+  width: 500px;
+  height: 200px;
+  padding-left: 20px;
+  text-align: left;
+  vertical-align: top;
+}
+.textarea::placeholder {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 12px;
+  color: #999;
+}
+.btn {
+  background: #5f9ea0;
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 150px;
+  padding: 6px;
+}
+.notescontain {
+  margin-left: 20px;
+}
+.card {
+  border: 1px solid #928e85;
+  padding-left: 10px;
+  padding-bottom: 50px;
+}
+.edit {
+  background: #5f9ea0;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+.delete {
+  background: red;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}

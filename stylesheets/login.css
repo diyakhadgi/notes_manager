@@ -1,0 +1,58 @@
+
+      body {
+        background-image: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial, sans-serif;
+      }
+      h3 {
+        text-align: center;
+      }
+      .container {
+        text-align: center;
+        background-color: rgba(197, 149, 195, 0.5);
+        margin: auto;
+        width: 500px;
+        padding-left: 30;
+        border: 2px solid black;
+        height: 440px;
+        border-style: none;
+        border-radius: 7px;
+      }
+      input[type="password"] {
+        padding: 7px;
+        width: 270px;
+        border-radius: 20px 20px 20px 20px;
+        border-style: none;
+      }
+      input[type="text"] {
+        padding: 7px;
+        width: 270px;
+        border-style: none;
+        border-radius: 20px 20px 20px 20px;
+      }
+      input[type="button"] {
+        color: black;
+        border-style: none;
+        background-color: rgb(238, 220, 220);
+        text-align: center;
+        padding: 7px;
+        width: 200px;
+        border-radius: 20px 20px 20px 20px;
+      }
+      input[type="submit"] {
+        color: black;
+        border-style: none;
+        background-color: rgb(238, 220, 220);
+        text-align: center;
+        padding: 7px;
+        width: 200px;
+        border-radius: 20px 20px 20px 20px;
+      }
+      table {
+        padding-left: 5%;
+      }
+      hr {
+        width: 100;
+      }
+    
