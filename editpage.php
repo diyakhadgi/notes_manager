@@ -13,10 +13,10 @@ if(isset($_POST['submit'])){
     $result= mysqli_query($conn, $sql);
     if($result)
     {
-        echo "updated successfully";
+        header("location: http://localhost/notes/welcome.php");
     }
     else{
-        echo "not updated";
+        echo "Update failed";
     }
 }
 ?>
