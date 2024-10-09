@@ -7,7 +7,7 @@ if($profile==true)
 }
 else
 {
-    header('location:http://localhost/notes/login.php');
+    header('location:http://localhost/notes_manager/login.php');
 }
 $sql= "select * from users where Username= '$profile'";
 $result = mysqli_query($conn, $sql);
