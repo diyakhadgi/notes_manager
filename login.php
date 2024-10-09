@@ -72,7 +72,7 @@ session_start();
             $num = mysqli_num_rows($result);
               if($num> 0){
                   $_SESSION['Username'] = $Username;
-                  header("Location: http://localhost/notes/welcome.php"); 
+                  header("Location: http://localhost/notes_manager/welcome.php"); 
                   exit();  
                   } else{
                         echo "login fail";

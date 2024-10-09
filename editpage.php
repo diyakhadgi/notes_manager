@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
     $result= mysqli_query($conn, $sql);
     if($result)
     {
-        header("location: http://localhost/notes/welcome.php");
+        header("location: http://localhost/notes_manager/welcome.php");
     }
     else{
         echo "Update failed";
